@@ -19,7 +19,7 @@ Now you can require the javascript library in application.js:
 Included (no need to require):
 
 * jQuery Iframe Transport for IE support.
-* jQuery UI widget from [jquery-ui-rails][2]
+* jQuery UI widget from [jquery-ui-rails-dox-fork][2]
 
 Example Rails application can be found in "demo" directory.
 
@@ -38,6 +38,8 @@ After:
 If you downloaded jquery.ui assets into your project, delete them and use [jquery-ui-rails][2] gem instead.
 
 ## Changelog
+
+1.12.0. Replaced `jquery-ui-rails` with `jquery-ui-rails-dox-fork`. Addressed potential XSS vulnerabilities.
 
 1.11.0. Core 5.42.0.
 
@@ -85,7 +87,7 @@ That means you can just require jquery.fileupload, no extra requires needed.
 0.0.1. Core 5.5.2,  UI 5.1.1.
 
 [1]: https://github.com/blueimp/jQuery-File-Upload
-[2]: https://github.com/joliss/jquery-ui-rails
+[2]: https://github.com/dox/jquery-ui-rails-dox-fork
 
 ## License
 jQuery File Upload as well as this gem are released under the [MIT license](http://www.opensource.org/licenses/MIT).
